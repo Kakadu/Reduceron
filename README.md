@@ -1,3 +1,15 @@
+##### Compilation hack from Kakadu 
+
+* install stack 
+   `wget -qO- https://get.haskellstack.org/ | sh`
+
+* install cabal:
+   `stack --resolver=lts-12.26 install Cabal`
+
+* compile anything 
+   `stack --resolver=lts-12.26 exec make`
+
+
 # Reduceron, an efficient processor for functional programs
 
 ## WHAT IS REDUCERON?
